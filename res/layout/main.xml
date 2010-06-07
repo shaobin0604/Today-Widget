@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:gravity="top" android:orientation="vertical"
+	android:id="@+id/widget" android:background="@drawable/calendar_background_64"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:textSize="14.0sp" android:textStyle="bold"
+		android:textColor="#ffffffff" android:layout_gravity="center_horizontal"
+		android:id="@+id/month_of_year" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginTop="7dip"
+		android:gravity="center" />
+	<TextView android:textSize="12.0sp"
+		android:textColor="#ffa82420" android:layout_gravity="center_horizontal"
+		android:id="@+id/day_of_week" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginTop="-4dip"
+		android:gravity="center" />
+	<TextView android:textSize="32.0sp" android:textStyle="bold"
+		android:textColor="#ff000000" android:layout_gravity="center"
+		android:id="@+id/day_of_month" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginTop="-12dip"/>
+</LinearLayout>
